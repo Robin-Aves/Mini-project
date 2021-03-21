@@ -22,6 +22,26 @@
     background-color: #525252;
 }
 
+/*--------------------------------------------Special padding/margins and text*/
+h1,
+h2,
+h3,
+h4, {
+    margin:0;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.general-sub{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+.inline-block {
+    display: block;
+}
+
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -104,4 +124,54 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+/*--------------------------------------------Hover.css*/
+.hvr-sweep-to-bottom:before {
+background-color: rgba(0, 0, 0, 0.2);
+height: 120px;
+
+}
+/*--------------------------------------------Footer*/
+
+footer {
+    background-color: #525252; ;
+    color: #fafafa;
+    min-height: 120px;
+
+}
+.cv-pdf i { 
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.cv-pdf i:hover {
+    color: #e84610;
+}
+/*class=".social-links" didnt work so I put it into the code below which worked just fine*/
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    padding-bottom: 25px;
+}
+.social-links li a i:hover {
+    background-color: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
 }
