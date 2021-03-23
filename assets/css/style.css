@@ -36,7 +36,7 @@
 h1, 
 h2, 
 h3, 
-h4, {
+h4 {
     margin: 0;
 }
 
@@ -273,13 +273,13 @@ progress-section {
 padding: 0;
 margin: 0;
 }
-.timeline-item::before {
+.timeline-item:before {
     content: attr(data-dates);
     position: absolute;
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: 'Exo'. sans-serif;
+    font-family: 'Exo', sans-serif;
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
